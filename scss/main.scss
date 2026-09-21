@@ -1,14 +1,1 @@
-@use "abstracts/variables";
-
-@use "base/reset";
-@use "base/base";
-@use "base/typography";
-
-@use "layout/navbar";
-@use "layout/sections";
-@use "layout/footer";
-
-@use "components/buttons";
-@use "components/cards";
-@use "components/skills";
-@use "components/floating-buttons";
+@use "site";

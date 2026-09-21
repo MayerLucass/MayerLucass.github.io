@@ -3,177 +3,111 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio | Lucas Mayer</title>
-
-    <!-- Favicon -->
+    <meta name="description" content="Portfolio de Lucas Mayer, desarrollador web de San Francisco, Córdoba. Proyectos modernos, responsive y enfocados en una buena experiencia de usuario.">
+    <meta name="theme-color" content="#090b12">
+    <title>Lucas Mayer | Desarrollador web</title>
     <link rel="icon" type="image/png" href="./imagenes/logo.png">
-
-    <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-
-    <!-- CSS compilado -->
-    <link rel="stylesheet" href="css/styles.css">
-
-    <!-- Iconos Bootstrap -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
-
 <body>
-
-<!-- BOTONES FLOTANTES -->
-<a href="https://github.com/MayerLucass" target="_blank" class="github-bubble">
-    <i class="bi bi-github"></i>
-</a>
-
-<a href="https://wa.me/543562410512" target="_blank" class="wpp-glass-btn">
-    <i class="bi bi-whatsapp"></i>
-</a>
-
-<!-- HEADER -->
-<header>
-    <nav class="navbar navbar-expand-lg fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="index.html">Lucas</a>
-
-            <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navMenu">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="./index.html">Inicio</a></li>
-                    <li class="nav-item"><a class="nav-link" href="./paginas/sobremi.html">Sobre mí</a></li>
-                    <li class="nav-item"><a class="nav-link" href="./paginas/proyecto.html">Proyectos</a></li>
-                    <li class="nav-item"><a class="nav-link" href="./paginas/contactos.html">Contacto</a></li>
-                </ul>
+    <a class="skip-link" href="#contenido">Saltar al contenido</a>
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top" aria-label="Navegación principal">
+            <div class="container">
+                <a class="navbar-brand" href="./index.html" aria-label="Ir al inicio"><span class="brand-mark">LM</span><span>Lucas Mayer</span></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Abrir menú"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navMenu">
+                    <ul class="navbar-nav ms-auto align-items-lg-center">
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="./index.html">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./paginas/sobremi.html">Sobre mí</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./paginas/proyecto.html">Proyectos</a></li>
+                        <li class="nav-item"><a class="nav-link nav-cta" href="./paginas/contactos.html">Hablemos</a></li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
-</header>
+        </nav>
+    </header>
 
-<!-- MAIN -->
-<main>
-
-    <!-- HERO -->
-    <section id="hero">
-        <div>
-            <h1>Hola, soy <span class="resaltado">Lucas Mayer</span></h1>
-            <p>Desarrollador Web en crecimiento | Me apasiona crear cosas increíbles</p>
-            <a href="#proyectos" class="btn btn-main mt-3">Ver mis proyectos</a>
-        </div>
-    </section>
-
-    <!-- SOBRE MI -->
-    <section id="sobre">
-        <div class="container">
-            <h2>Sobre mí</h2>
-            <p class="text-center w-75 mx-auto">
-                Soy estudiante de programación y desarrollador web en formación.
-                Me gusta crear interfaces elegantes, modernas y funcionales.
-                Este portfolio es mi primer proyecto y lo iré mejorando con el tiempo.
-            </p>
-        </div>
-    </section>
-
-    <!-- PROYECTOS -->
-    <section id="proyectos">
-        <div class="container">
-            <h2>Proyectos</h2>
-
-            <div class="row g-4">
-
-                <div class="col-md-4">
-                    <div class="project-card">
-                        <h4>Portfolio Personal</h4>
-                        <p>Mi primer sitio web, construido con HTML, CSS y Bootstrap.</p>
+    <main id="contenido">
+        <section class="hero hero-home">
+            <div class="hero-glow hero-glow-one"></div><div class="hero-glow hero-glow-two"></div>
+            <div class="container position-relative">
+                <div class="row align-items-center g-5">
+                    <div class="col-lg-7">
+                        <p class="eyebrow reveal"><span></span> Desarrollador web · San Francisco, Córdoba</p>
+                        <h1 class="reveal">Creo experiencias web <span>modernas, claras y funcionales.</span></h1>
+                        <p class="hero-copy reveal">Transformo ideas en sitios atractivos, rápidos y preparados para verse bien en cualquier dispositivo.</p>
+                        <div class="hero-actions reveal">
+                            <a href="#proyectos" class="btn btn-main">Ver proyectos <i class="bi bi-arrow-down-right"></i></a>
+                            <a href="./paginas/contactos.html" class="btn btn-outline-custom">Contactarme</a>
+                        </div>
+                        <div class="hero-meta reveal" aria-label="Resumen profesional">
+                            <div><strong>4+</strong><span>Proyectos</span></div><div><strong>100%</strong><span>Responsive</span></div><div><strong>Front-end</strong><span>Enfoque</span></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 d-none d-lg-block">
+                        <div class="code-window reveal" aria-hidden="true">
+                            <div class="window-bar"><span></span><span></span><span></span><small>portfolio.js</small></div>
+                            <pre><code><span class="code-purple">const</span> developer = {
+  name: <span class="code-green">"Lucas Mayer"</span>,
+  role: <span class="code-green">"Web Developer"</span>,
+  skills: [
+    <span class="code-green">"HTML"</span>, <span class="code-green">"CSS"</span>,
+    <span class="code-green">"JavaScript"</span>, <span class="code-green">"React"</span>
+  ],
+  available: <span class="code-blue">true</span>
+};</code></pre>
+                            <div class="code-status"><span></span> Disponible para nuevos proyectos</div>
+                        </div>
                     </div>
                 </div>
+            </div>
+        </section>
 
-                <div class="col-md-4">
-                    <div class="project-card">
-                        <h4>Proyecto Piletas</h4>
-                        <p>Una web diseñada para mostrar información sobre piletas.</p>
-                        <a href="https://mayerlucass.github.io/ProyectoPileta/" class="btn btn-main btn-sm">Ver proyecto</a>
-                    </div>
+        <section class="section" id="sobre">
+            <div class="container"><div class="row align-items-center g-5">
+                <div class="col-lg-5 reveal"><div class="portrait-wrap"><div class="portrait-frame"><img src="./imagenes/imagen.jpg" alt="Lucas Mayer, desarrollador web" width="500" height="500"></div><div class="portrait-label"><i class="bi bi-code-slash"></i> Construyendo ideas</div></div></div>
+                <div class="col-lg-7 reveal">
+                    <p class="section-kicker">Sobre mí</p>
+                    <h2 class="section-title text-start">Diseño y código con un objetivo: que cada proyecto funcione de verdad.</h2>
+                    <p class="section-copy">Soy estudiante de la Tecnicatura Universitaria en Programación en la UTN San Francisco. Me especializo en crear interfaces web modernas, ordenadas y fáciles de usar.</p>
+                    <p class="section-copy">Disfruto convertir necesidades concretas en soluciones digitales, cuidando tanto el aspecto visual como la experiencia en celulares, tablets y computadoras.</p>
+                    <a href="./paginas/sobremi.html" class="text-link">Conocé más sobre mí <i class="bi bi-arrow-right"></i></a>
                 </div>
+            </div></div>
+        </section>
 
-                <div class="col-md-4">
-                    <div class="project-card">
-                        <h4>Task Manager</h4>
-                        <p>Aplicación web desarrollada con React y Vite para la gestión de tareas diarias.</p>
-                        <a href="https://mayerlucass.github.io/my-react-app/" class="btn btn-main btn-sm">Ver proyecto</a>
-                    </div>
+        <section class="section section-alt" id="proyectos">
+            <div class="container">
+                <div class="section-heading reveal"><div><p class="section-kicker">Trabajo seleccionado</p><h2 class="section-title">Proyectos que convierten ideas en experiencias.</h2></div><a href="./paginas/proyecto.html" class="text-link d-none d-md-inline-flex">Ver todos <i class="bi bi-arrow-right"></i></a></div>
+                <div class="row g-4">
+                    <div class="col-lg-6 reveal"><article class="project-card project-featured"><div class="project-number">01</div><div class="project-icon"><i class="bi bi-check2-square"></i></div><div class="project-content"><div class="project-tags"><span>React</span><span>Vite</span><span>JavaScript</span></div><h3>Task Manager</h3><p>Aplicación para crear, completar y organizar tareas diarias con una interfaz rápida, simple y responsive.</p><a href="https://mayerlucass.github.io/my-react-app/" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="Abrir Task Manager en una pestaña nueva">Ver proyecto <i class="bi bi-box-arrow-up-right"></i></a></div></article></div>
+                    <div class="col-lg-6 reveal"><article class="project-card project-cyan"><div class="project-number">02</div><div class="project-icon"><i class="bi bi-buildings"></i></div><div class="project-content"><div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><h3>Consultora empresarial</h3><p>Sitio corporativo con presentación de servicios, equipo de trabajo y canales de contacto.</p><a href="https://mayerlucass.github.io/consultora/" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="Abrir Consultora en una pestaña nueva">Ver proyecto <i class="bi bi-box-arrow-up-right"></i></a></div></article></div>
+                    <div class="col-lg-6 reveal"><article class="project-card project-orange"><div class="project-number">03</div><div class="project-icon"><i class="bi bi-water"></i></div><div class="project-content"><div class="project-tags"><span>HTML</span><span>CSS</span><span>Bootstrap</span></div><h3>Proyecto Piletas</h3><p>Web informativa orientada a presentar productos y servicios de forma visual, clara y adaptable.</p><a href="https://mayerlucass.github.io/ProyectoPileta/" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="Abrir Proyecto Piletas en una pestaña nueva">Ver proyecto <i class="bi bi-box-arrow-up-right"></i></a></div></article></div>
+                    <div class="col-lg-6 reveal"><article class="project-card project-pink"><div class="project-number">04</div><div class="project-icon"><i class="bi bi-person-badge"></i></div><div class="project-content"><div class="project-tags"><span>HTML</span><span>SCSS</span><span>Bootstrap</span></div><h3>Portfolio personal</h3><p>Mi espacio profesional para presentar proyectos, conocimientos y formas de contacto.</p><a href="./index.html" class="project-link">Estás acá <i class="bi bi-arrow-up-left"></i></a></div></article></div>
                 </div>
-
-                 <div class="col-md-4">
-                    <div class="project-card">
-                        <h4>consultora</h4>
-                        <p>Pagina web sobre una consultora de empresas, donde se brinda información sobre los servicios ofrecidos, el equipo de trabajo y los datos de contacto.</p>
-                        <a href="https://mayerlucass.github.io/consultora/" class="btn btn-main btn-sm">Ver proyecto</a>
-                    </div>
-                </div>
-
             </div>
-        </div>
-    </section>
+        </section>
 
-<!-- SKILLS -->
-<section id="skills">
-    <div class="container">
-        <h2>Skills</h2>
+        <section class="section" id="skills">
+            <div class="container"><div class="row g-5 align-items-start">
+                <div class="col-lg-5 reveal"><p class="section-kicker">Tecnologías</p><h2 class="section-title text-start">Herramientas que uso para construir.</h2><p class="section-copy">Una base sólida de desarrollo front-end, diseño responsive y control de versiones, en constante crecimiento.</p></div>
+                <div class="col-lg-7 reveal"><div class="skills-grid">
+                    <div class="skill-card"><i class="bi bi-filetype-html"></i><span>HTML5</span></div><div class="skill-card"><i class="bi bi-filetype-css"></i><span>CSS3 / SCSS</span></div><div class="skill-card"><i class="bi bi-filetype-js"></i><span>JavaScript</span></div><div class="skill-card"><i class="bi bi-bootstrap"></i><span>Bootstrap</span></div><div class="skill-card"><i class="bi bi-git"></i><span>Git & GitHub</span></div><div class="skill-card"><i class="bi bi-phone"></i><span>Responsive</span></div><div class="skill-card"><i class="bi bi-code-square"></i><span>React</span></div><div class="skill-card"><i class="bi bi-database"></i><span>SQL</span></div>
+                </div></div>
+            </div></div>
+        </section>
 
-        <!-- Descripción breve -->
-        <p class="text-center w-75 mx-auto mb-4">
-            Estas son algunas de las tecnologías y herramientas con las que trabajo actualmente
-            y que sigo profundizando día a día en mis proyectos personales.
-        </p>
+        <section class="section cta-section"><div class="container"><div class="cta-card reveal"><p class="section-kicker">¿Tenés un proyecto en mente?</p><h2>Hagamos algo que se vea bien y funcione mejor.</h2><p>Estoy disponible para proyectos freelance y nuevas oportunidades laborales.</p><a href="./paginas/contactos.html" class="btn btn-light-custom">Hablemos <i class="bi bi-arrow-up-right"></i></a></div></div></section>
+    </main>
 
-        <!-- Tecnologías -->
-        <div class="text-center mb-4">
-            <span class="skill">HTML5</span>
-            <span class="skill">CSS3</span>
-            <span class="skill">Bootstrap</span>
-            <span class="skill">JavaScript</span>
-            <span class="skill">Git & GitHub</span>
-            <span class="skill">Responsive Design</span>
-            <span class="skill">SCSS</span>
-            <span class="skill">React</span>
-        </div>
-
-        <!-- Extras / enfoque -->
-        <div class="row text-center mt-4">
-            <div class="col-md-4 mb-3">
-                <i class="bi bi-phone fs-2"></i>
-                <h5 class="mt-2">Diseño Responsive</h5>
-                <p>Adaptación de sitios para desktop, tablet y mobile.</p>
-            </div>
-
-            <div class="col-md-4 mb-3">
-                <i class="bi bi-code-slash fs-2"></i>
-                <h5 class="mt-2">Código limpio</h5>
-                <p>Buenas prácticas, estructura clara y escalable.</p>
-            </div>
-
-            <div class="col-md-4 mb-3">
-                <i class="bi bi-lightning fs-2"></i>
-                <h5 class="mt-2">Aprendizaje constante</h5>
-                <p>Siempre incorporando nuevas tecnologías y desafíos.</p>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-</main>
-
-<!-- FOOTER -->
-<footer>
-    © 2025 Lucas Mayer | Portfolio diseñado con ❤️
-</footer>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <a href="https://wa.me/5493562410512?text=Hola%20Lucas,%20vi%20tu%20portfolio%20y%20quiero%20hacerte%20una%20consulta." target="_blank" rel="noopener noreferrer" class="floating-contact" aria-label="Contactar por WhatsApp"><i class="bi bi-whatsapp"></i></a>
+    <footer><div class="container footer-inner"><a class="footer-brand" href="./index.html"><span class="brand-mark">LM</span> Lucas Mayer</a><p>Diseño y desarrollo web con atención a cada detalle.</p><div class="social-links"><a href="https://github.com/MayerLucass" target="_blank" rel="noopener noreferrer" aria-label="GitHub de Lucas Mayer"><i class="bi bi-github"></i></a><a href="mailto:lucasmayer071000@gmail.com" aria-label="Enviar correo a Lucas Mayer"><i class="bi bi-envelope"></i></a><a href="https://wa.me/5493562410512" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp de Lucas Mayer"><i class="bi bi-whatsapp"></i></a></div><small>© <span data-current-year>2026</span> Lucas Mayer</small></div></footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script><script src="./js/main.js"></script>
 </body>
 </html>
