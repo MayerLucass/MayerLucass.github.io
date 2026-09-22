@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 220" role="img" aria-labelledby="title desc">
+  <title id="title">Lucas Mayer</title>
+  <desc id="desc">Desarrollo Web y Software</desc>
+  <defs>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1269bd"/>
+      <stop offset="1" stop-color="#0b4d96"/>
+    </linearGradient>
+    <linearGradient id="navy" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#16304c"/>
+      <stop offset="1" stop-color="#081a2d"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(12 28)">
+    <path fill="url(#navy)" d="M0 0h32v122h123l28 34H0z"/>
+    <path fill="url(#blue)" d="M44 0l53 50L150 0h34v156h-34V45L97 96 44 45v49H12V0z"/>
+  </g>
+  <text x="225" y="112" fill="#102237" font-family="Manrope, Arial, sans-serif" font-size="82" font-weight="800" letter-spacing="-4">Lucas</text>
+  <text x="468" y="112" fill="url(#blue)" font-family="Manrope, Arial, sans-serif" font-size="82" font-weight="800" letter-spacing="-4">Mayer</text>
+  <text x="230" y="170" fill="#102237" font-family="Manrope, Arial, sans-serif" font-size="31" font-weight="500" letter-spacing="8">Desarrollo Web y Software</text>
+</svg>

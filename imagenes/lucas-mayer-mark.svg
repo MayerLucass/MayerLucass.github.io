@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 196 176" role="img" aria-label="Lucas Mayer">
+  <defs>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1269bd"/><stop offset="1" stop-color="#0b4d96"/></linearGradient>
+    <linearGradient id="navy" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#16304c"/><stop offset="1" stop-color="#081a2d"/></linearGradient>
+  </defs>
+  <path fill="url(#navy)" d="M0 8h34v124h125l29 36H0z"/>
+  <path fill="url(#blue)" d="M47 8l53 51 54-51h34v160h-34V54l-54 52-53-52v50H14V8z"/>
+</svg>
